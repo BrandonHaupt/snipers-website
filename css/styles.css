@@ -145,7 +145,7 @@ nav ul li {
 footer {
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 150px;
     align-items: center;
     background: #DEA732;
     width: 100%;
@@ -154,5 +154,6 @@ footer {
 }
 
 footer p {
-    color: white;
+    font-size: 1.3rem;
+    color: #272727;
 }
