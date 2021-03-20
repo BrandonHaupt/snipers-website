@@ -6,20 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAYDAY Excavating</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/testing.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script src="./js/slideshow.js"></script>
+
 </head>
 <body>
     <nav>
         <img class="logo" src="./img/mayday-logo.jpg" alt="Logo for Mayday Exacavating">
         <ul>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./gallery.html">Projects</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <section class="main-img-top">
+        <!-- <section class="main-img-top">
             <img class="main-img" src="./img/project1-after.png" alt="A after photo of the first project">
-        </section>
+        </section> -->
+
+        <div id="image-slider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <!-- Before -->
+                    <li class="splide__slide">
+                        <img class="horizontal" src="./img/project1-before.jpg" alt="">
+				        <h2>Before</h2>
+                    </li>
+
+                    <!-- After -->
+                    <li class="splide__slide">
+                        <img class="horizontal" src="./img/project1-after.png" alt="">
+                        <h2>After</h2>
+                    </li>
+
+                    <!-- Before -->
+                    <li class="splide__slide">
+                        <img class="horizontal" src="./img/project2-before.jpg" alt="">
+                        <h2>Before</h2>
+                    </li>
+
+                    <!-- After -->
+                    <li class="splide__slide">
+                        <img class="horizontal" src="./img/project2-after.jpg" alt="">
+                        <h2>After</h2>
+                    </li>
+<!-- 
+                    Before
+                    <li class="splide__slide">
+                        <img class="verticle" src="./img/project3-before_1.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="verticle" src="./img/project3-before_2.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="verticle" src="./img/project3-before_3.jpg" alt="">
+                    </li>
+
+                    After
+                    <li class="splide__slide">
+                        <img class="horizontal" src="./img/project3-after_1.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img  class="horizontal" src="./img/project3-after_2.jpg" alt="">
+                    </li> -->
+                </ul>
+            </div>
+        </div>
         
 
         <section class="services-container">
@@ -44,14 +98,21 @@
                 </div>
             </div>
 
-           <div class="service-more-container">
-               <!-- <h2 class="services-more">And More</h2> -->
-           </div>
+            
+
+           <!-- <div class="service-more-container">
+               <!-- <h2 class="services-more">And More</h2>
+           </div> -->
             
         </section>
         <footer>
+            <div class="footer-section">
+                <h2>FREE ESTIMATE</h2>
+                <div class="b-line"></div>
+            </div>
             <p>MAYDAYEXCAVATING@GMAIL.COM</p>
             <p>(865)-304-0006</p>
+            <p>Hours: 9am - 7pm</p>
         </footer>
     </main>
 </body>
