@@ -15,61 +15,56 @@ body{
     height: 100%;
 }
 
-nav{
+/* ======================== NAV BAR =========================== */
+
+nav {
     background-color: #DEA732;
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    width: 100%;
-    /* justify-content: center; */
-    align-items: center;
-    justify-content: space-evenly;
+    font-weight: 900;
 }
 
-nav ul a {
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    font-weight: 800;
-    font-size: 1.2rem;
-    color: #272727;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 0;
+}
+
+.nav-links {
+    display: flex;
 }
 
 nav ul li {
     list-style: none;
-    text-decoration: none;
-    padding: 10px;
-    float: left;
 }
 
-nav ul a:active {
+nav ul li a {
+    color: #272727;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
     color: white;
 }
 
-.logo {
-    height: inherit;
-    float: left;
+nav a img {
+    height: 100px;
 }
 
-.main-img-top {
-    height: 700px;
-}
-
-.main-img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+.nav-item {
+  padding: 20px;
+  width: 100%;
 }
 
 /* ======================== Our Services =========================== */
 .services-container {
-    height: 800px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10%;
+    align-content: center;
+    margin-bottom: 70px;
     width: 100%;
 }
 
@@ -79,6 +74,7 @@ nav ul a:active {
     font-size: 1.8rem;
     color: white;
     padding-top: 100px;
+    align-content: center;
 }
 
 .line, .project-line {
@@ -93,6 +89,7 @@ nav ul a:active {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: center;
 }
 
 .list {
@@ -193,7 +190,7 @@ nav ul a:active {
 footer {
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 350px;
     align-items: center;
     background: #DEA732;
     width: 100%;
@@ -232,3 +229,5 @@ footer p {
 .splide__slide h2 {
     color: #DEA732;
 }
+
+
