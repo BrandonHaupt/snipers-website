@@ -1207,6 +1207,10 @@ a {
   flex: 0 0 auto;
 }
 
+.nav-menu-2 {
+  padding-right: 30px;
+}
+
 .image-licensing {
   margin-top: 30px;
   margin-bottom: 30px;
