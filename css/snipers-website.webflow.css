@@ -790,7 +790,7 @@ a {
 }
 
 .nav-link:hover {
-  box-shadow: inset 0 -5px 0 0 #fc0a7e;
+  box-shadow: inset 0 -5px 0 0 #151515;
   color: #fff;
 }
 
@@ -2110,14 +2110,28 @@ a {
     color: #1b1b1b;
   }
 
+  .menu-icon:active {
+    border: 1px solid transparent;
+  }
+
   .menu-button {
     display: block;
+    border: 1px solid transparent;
     color: #1b1b1b;
+  }
+
+  .menu-button:active {
+    display: block;
   }
 
   .menu-button.w--open {
     background-color: #1b1b1b;
     color: #1b1b1b;
+  }
+
+  .menu-button.w--open:active {
+    background-color: #1b1b1b;
+    color: #fbb041;
   }
 
   .nav-menu-2 {
